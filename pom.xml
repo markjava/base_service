@@ -6,9 +6,14 @@
 
   <groupId>com.base.service</groupId>
   <artifactId>base-service</artifactId>
-  <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>base-service-catch</module>
+      <module>base-service-test</module>
+    </modules>
 
-  <name>base-service</name>
+    <name>base-service</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
