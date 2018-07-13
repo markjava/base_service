@@ -1,3 +1,33 @@
 ###### 服务端口 ######
 server :
   port : 30000
+
+
+
+###### spring #######
+spring :
+  redis :
+#    host : 127.0.0.1
+#    port : 6379
+#    sentinel :
+#      master : 127.0.0.1:6379
+#      nodes :
+#        - 127.0.0.1:6379
+#        - 127.0.0.1:6380
+    password : 1354974Xy7250
+    database : 0
+    jedis :
+      pool :
+        max-active : 1000
+        min-idle : 500
+        max-idle : 2000
+        max-wait : -1
+    cluster :
+      nodes :
+        - 192.168.0.173:7380
+        - 192.168.0.173:7381
+        - 192.168.0.173:7382
+        - 192.168.0.174:7380
+        - 192.168.0.174:7381
+        - 192.168.0.174:7382
+      max-redirects : 1
