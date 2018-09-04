@@ -9,8 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>base-service-catch</module>
-      <module>base-service-test</module>
+        <module>base-service-redis</module>
+        <module>base-service-test</module>
+        <module>base-service-memcached</module>
     </modules>
 
     <name>base-service</name>
